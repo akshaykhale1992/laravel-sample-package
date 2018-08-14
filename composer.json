@@ -1,0 +1,20 @@
+{
+    "name": "akshay/activable",
+    "description": "Activate-deactivate package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akshay khale",
+            "email": "akshay.khale@vamaship.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akshay\\Activable\\ActivableProvider"
+            ]
+        }
+    },
+}
